@@ -5,7 +5,7 @@ public class Account {
     void withdraw() { // 提款方法
         
     }
-    void deposit() { // 存款方法
-        
+    void deposit(int money) { // 存款方法
+        balance += money;
     }
 }
