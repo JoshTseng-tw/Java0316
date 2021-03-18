@@ -34,6 +34,7 @@ public class Exam {
         String result = (avg > 60) ? "及格" : "不及格";
         return result;
     }
+   
     //void print(){
     //int sum = getSum();
     //double avg = getAvg();
